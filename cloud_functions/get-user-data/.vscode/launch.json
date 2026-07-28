@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "get-user-data",
+      "region": "europe-west3",
+      "gen": "GEN_1",
+      "revision": "7",
+      "entryPoint": "get_user_data",
+      "runtime": "python310",
+      "testInput": ""
+    }
+  ]
+}

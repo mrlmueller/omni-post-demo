@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "twitter-upload",
+      "region": "europe-west3",
+      "gen": "GEN_2",
+      "revision": "twitter-upload-00001-qol",
+      "entryPoint": "handle_video_post",
+      "runtime": "python310",
+      "testInput": ""
+    }
+  ]
+}

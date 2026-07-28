@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "delete_old_videos",
+      "region": "europe-west3",
+      "gen": "GEN_2",
+      "revision": "delete-old-videos-00003-xoy",
+      "entryPoint": "delete_old_videos",
+      "runtime": "python310",
+      "testInput": ""
+    }
+  ]
+}

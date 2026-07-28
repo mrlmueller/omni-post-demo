@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "youtube-upload",
+      "region": "europe-west3",
+      "gen": "GEN_2",
+      "revision": "1",
+      "entryPoint": "upload_video",
+      "runtime": "python310",
+      "testInput": ""
+    }
+  ]
+}

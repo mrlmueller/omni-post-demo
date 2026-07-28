@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "dlt",
+      "region": "europe-west3",
+      "gen": "GEN_2",
+      "revision": "dlt-00002-pup",
+      "entryPoint": "handle_dead_letter_message",
+      "runtime": "python310",
+      "testInput": ""
+    }
+  ]
+}

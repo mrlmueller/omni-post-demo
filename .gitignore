@@ -1,0 +1,43 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+.env
+
+united-glow-400811-d09baaa81e54.json
+omni-post-firebase-adminsdk-qo3dr-b264c54e90.json
+omni-post-0bf36912d2ae.json
+omni-post-eu-9241ce422333.json
+omni-post-eu-ca41b32744e1.json
+omni-post-eu-dc29c42b5ef1.json

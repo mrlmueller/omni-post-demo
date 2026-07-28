@@ -1,0 +1,10 @@
+functions-framework==3.*
+google-cloud-firestore==2.16.0
+google-auth==2.29.0
+flask==3.0.0
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+requests==2.31.0
+cryptography==41.0.5
+google-cloud-secret-manager==2.20.2

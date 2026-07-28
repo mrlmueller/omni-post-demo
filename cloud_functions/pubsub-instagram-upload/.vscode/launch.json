@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "pubsub-instagram-upload",
+      "region": "europe-west3",
+      "gen": "GEN_2",
+      "revision": "pubsub-instagram-upload-00007-raw",
+      "entryPoint": "instagram_upload",
+      "runtime": "python310",
+      "testInput": ""
+    }
+  ]
+}

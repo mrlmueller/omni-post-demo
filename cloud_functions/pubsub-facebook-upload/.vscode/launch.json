@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "pubsub-facebook-upload",
+      "region": "europe-west3",
+      "gen": "GEN_2",
+      "revision": "pubsub-facebook-upload-00010-qaj",
+      "entryPoint": "facebook_upload",
+      "runtime": "python310",
+      "testInput": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "save-user-to-database",
+      "region": "europe-west3",
+      "gen": "GEN_1",
+      "revision": "4",
+      "entryPoint": "save_user_data",
+      "runtime": "python310",
+      "testInput": ""
+    }
+  ]
+}

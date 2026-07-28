@@ -1,0 +1,8 @@
+functions-framework==3.*
+firebase-admin
+google-cloud-firestore==2.16.0
+google-cloud-storage
+requests==2.31.0
+google-auth
+cryptography==41.0.5
+google-cloud-secret-manager==2.20.2
